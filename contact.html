@@ -7,7 +7,7 @@
 
     <style>
         .margin-200 {
-            margin-top: 200px;
+            margin-bottom: 200px;
         }
 
         .margin-100 {
@@ -21,6 +21,7 @@
         .teal-background {
             background-color: #129270;
         }
+
         .button {
             background-color: #129270;
             color: white;
@@ -38,26 +39,31 @@
                 <medium class="text-light">Tucker</medium>
                 <medium class="teal-text">Hill</medium>
             </h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <nav class="row collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ml-3">
-                        <a class="nav-link text-light" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item ml-3">
-                        <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item ml-3">
-                        <a class="nav-link text-secondary disabled" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+
+                <div class="row collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ml-3">
+                            <a class="nav-link text-light" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item ml-3">
+                            <a class="nav-link text-secondary disabled" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
-        <main class="row-fluid col-8 mx-auto margin-100 bg-white shadow border border-dark p-0 rounded">
+        <main
+            class="row-fluid col-sm-8 mx-sm-auto margin-100 margin-200 bg-white shadow border border-dark p-0 rounded">
             <div class="mx-auto teal-background text-light py-2 border-bottom border-dark rounded-top">
                 <h2 class="pl-5 pb-1 pt-2">Contact</h2>
             </div>
@@ -73,14 +79,23 @@
                 <button type="button" class="button mt-4 rounded">Submit</button>
             </div>
         </main>
-        <footer class="row-fluid col-12 margin-200 shadow">
-            <div class="row teal-background p-1">
+        <footer class="footer col-12 p-0 shadow">
+            <div class="teal-background p-1">
             </div>
-            <div class="row p-3 bg-dark text-white">
-                <p class="mx-auto pt-1" style="width: 200px;">Copyright</p>
+            <div class="p-3 bg-dark text-white">
+                <p class="mx-auto pt-1" style="width: 200px;">© Copyright</p>
             </div>
         </footer>
     </div>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
