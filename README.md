@@ -1,1 +1,7 @@
 # Hill-Responsive-Portfolio
+
+This assignment was to create a responsive portfolio including navbar, three separate pages (About Me, Portfolio, Contact) and footer using Bootstrap.  There was a lot of debugging to make the responsive layout work while maintaining aesthetics.  Margins, padding, columns, and rows became my best friend while trying to make everything space correctly and get the site to adapt to no margins when on an extra small screen.  It took a minute to realize that the collapsable button was easily fixed with the JS scripts for Bootstrap.
+
+For the portfolio, I used original pictures I took on various trips with an Instagram link included.  Since my coding experience is still fairly new, I had a more extensive selection to choose from those.  It was definitely fun and also frustrating at times.  I laughed, I cried, many memories were made.  I definitely learned that organization and planninng would have been a very important thing to tackle first as my time wasn't always spent efficiently when editing the pages.  Live and learn I suppose.
+
+I did run the code through a validation site (https://validator.w3.org/) and fixed some stuff but there are definitely more items to be cleaned up, just didn't have enough time.
